@@ -1,7 +1,20 @@
+# macOS system files
 .DS_Store
+
+# Python cache and checkpoints
 __pycache__/
 *.pyc
-*.ipynb_checkpoints
+.ipynb_checkpoints/
+
+# Environment files
 .env
+
+# VSCode settings folder
 .vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Excel temp files
+~$*.xls*
 
