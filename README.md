@@ -107,8 +107,8 @@ cholesterol-prediction-and-health-chatbot/
 │   ├── Data-Visualization.ipynb # Visual exploration and data cleaning
 │   └── EudemoniaBot.ipynb       # Chatbot implementation and hospital locator
 │
-├─project_ppt.pptx             # Final project presentation
-├── .gitignore                   # File exclusions
+├──project_ppt.pptx             # Final project presentation
+├─.gitignore                   # File exclusions
 └── README.md                    # Project documentation
 ```
 
@@ -118,4 +118,12 @@ cholesterol-prediction-and-health-chatbot/
 - The regression model assumes linearity and may not capture complex medical dependencies.
 - The chatbot is based on keyword-matching and does not understand natural language in depth.
 - Hospital locator depends on city name spelling and requires an internet connection for map rendering.
+
+## Timeline
+
+This project was developed during a 1-week summer internship at Emirates Aviation University in July-August 2023.
+
+## License
+
+This project is licensed under the MIT License.  
 
