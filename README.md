@@ -32,31 +32,31 @@ By integrating these components, the project aims to empower users with accessib
 ## Tech Stack / Tools Used
 
 - Languages:  
- - Python
+  - Python
 
 - Data Analysis & Visualization:  
- - `numpy`, `pandas` - data manipulation and numerical operations  
- - `matplotlib`, `seaborn` -  plotting and visualization  
+  - `numpy`, `pandas` — data manipulation and numerical operations  
+  - `matplotlib`, `seaborn` — plotting and visualization
 
 - Machine Learning & Modeling:  
- - `sklearn` - regression modeling, text vectorization (TF-IDF), Naive Bayes, Support Vector Classifier  
- - `TextBlob` - sentiment analysis (optional/fallback)
+  - `sklearn` — regression modeling, text vectorization (TF-IDF), Naive Bayes, Support Vector Classifier  
+  - `TextBlob` — sentiment analysis (optional/fallback)
 
 - Natural Language Processing (NLP):  
- - `nltk` - text tokenization, stopword removal, lemmatization  
- - Modules: `punkt`, `stopwords`, `wordnet`, `omw-1.4`
+  - `nltk` — text tokenization, stopword removal, lemmatization  
+  - Modules: `punkt`, `stopwords`, `wordnet`, `omw-1.4`
 
 - Chatbot Functionality:  
- - `random` - randomized chatbot replies  
- - `cosine_similarity` (from sklearn) - matching user queries to known responses using vector similarity
+  - `random` — randomized chatbot replies  
+  - `cosine_similarity` (from `sklearn`) — matching user queries to known responses using vector similarity
 
 - Location Mapping:  
- - `folium` - map visualization of hospitals  
- - `geopy` - geocoding cities to coordinates
+  - `folium` — map visualization of hospitals  
+  - `geopy` — geocoding cities to coordinates
 
-- Development Environment:
- - Jupyter Notebook (local)
- - Visual Studio Code (editor)
+- Development Environment:  
+  - Jupyter Notebook (local)  
+  - Visual Studio Code (editor)
 
 ## Model Details
 
