@@ -11,7 +11,7 @@ Cardiovascular diseases are increasing worldwide, with high cholesterol levels b
 - To develop a multiple linear regression model that predicts cholesterol levels based on age, blood pressire, and heart rate, enabling early health screening.
 - To create an interactive health chatbot that provides users with factual health information, such as lifestyle advice related to conditions like high blood pressure.
 
---
+---
 
 ## Overview
 
