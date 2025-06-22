@@ -107,8 +107,8 @@ cholesterol-prediction-and-health-chatbot/
 │   ├── Data-Visualization.ipynb # Visual exploration and data cleaning
 │   └── EudemoniaBot.ipynb       # Chatbot implementation and hospital locator
 │
-├──project_ppt.pptx             # Final project presentation
-├─.gitignore                   # File exclusions
+├── project_ppt.pptx             # Final project presentation
+├── .gitignore                   # File exclusions
 └── README.md                    # Project documentation
 ```
 
