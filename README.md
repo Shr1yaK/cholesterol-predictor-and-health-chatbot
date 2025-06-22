@@ -11,8 +11,6 @@ Cardiovascular diseases are increasing worldwide, with high cholesterol levels b
 - To develop a multiple linear regression model that predicts cholesterol levels based on age, blood pressire, and heart rate, enabling early health screening.
 - To create an interactive health chatbot that provides users with factual health information, such as lifestyle advice related to conditions like high blood pressure.
 
----
-
 ## Overview
 
 This project combines data-driven machine learning with conversational AI to support early health screening and awareness related to cardiovascular risks.
@@ -23,13 +21,40 @@ The second component is a health chatbot designed as an interactive conversation
 
 By integrating these components, the project aims to empower users with accessible health information and resources, potentially aiding early detection and prevention of cholesterol-related diseases.
 
---
-
 ## Features
 
-- **Cholesterol Prediction Model**: Uses multiple linear regression to estimate a user's cholesterol level based on age, blood pressure, and heart rate.
-- **Interactive Health Chatbot**: Answers factual health-related questions (e.g., lifestyle changes for high blood pressure).
-- **Hospital Locator**: When asked, the chatbot shows hospitals in any specified city plotted on a map.
-- **User-Friendly Jupyter Notebooks**: Organized into separate notebooks for visualization and chatbot development.
-- **Clean Data Visualizations**: Includes seaborn/matplotlib charts that explore correlations in the dataset.
+- *Cholesterol Prediction Model*: Uses multiple linear regression to estimate a user's cholesterol level based on age, blood pressure, and heart rate.
+- *Interactive Health Chatbot*: Answers factual health-related questions (e.g., lifestyle changes for high blood pressure).
+- *Hospital Locator*: When asked, the chatbot shows hospitals in any specified city plotted on a map.
+- *User-Friendly Jupyter Notebooks*: Organized into separate notebooks for visualization and chatbot development.
+- *Clean Data Visualizations*: Includes seaborn/matplotlib charts that explore correlations in the dataset.
+
+## Tech Stack / Tools Used
+
+- *Languages*:  
+  - Python
+
+- *Data Analysis & Visualization*:  
+  - `numpy`, `pandas` - data manipulation and numerical operations  
+  - `matplotlib`, `seaborn` -  plotting and visualization  
+
+- *Machine Learning & Modeling*:  
+  - `sklearn` - regression modeling, text vectorization (TF-IDF), Naive Bayes, Support Vector Classifier  
+  - `TextBlob` - sentiment analysis (optional/fallback)
+
+- *Natural Language Processing (NLP)*:  
+  - `nltk` - text tokenization, stopword removal, lemmatization  
+  - Modules: `punkt`, `stopwords`, `wordnet`, `omw-1.4`
+
+- *Chatbot Functionality*:  
+  - `random` - randomized chatbot replies  
+  - `cosine_similarity` (from sklearn) - matching user queries to known responses using vector similarity
+
+- *Location Mapping*:  
+  - `folium` - map visualization of hospitals  
+  - `geopy` - geocoding cities to coordinates
+
+- *Development Environment*:  
+  - Jupyter Notebook (local)
+  - Visual Studio Code (editor)
 
