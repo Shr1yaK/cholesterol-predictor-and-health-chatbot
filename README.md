@@ -31,32 +31,32 @@ By integrating these components, the project aims to empower users with accessib
 
 ## Tech Stack / Tools Used
 
--Languages:  
- -Python
+- Languages:  
+ - Python
 
--Data Analysis & Visualization:  
- -`numpy`, `pandas` - data manipulation and numerical operations  
- -`matplotlib`, `seaborn` -  plotting and visualization  
+- Data Analysis & Visualization:  
+ - `numpy`, `pandas` - data manipulation and numerical operations  
+ - `matplotlib`, `seaborn` -  plotting and visualization  
 
--Machine Learning & Modeling:  
- -`sklearn` - regression modeling, text vectorization (TF-IDF), Naive Bayes, Support Vector Classifier  
- -`TextBlob` - sentiment analysis (optional/fallback)
+- Machine Learning & Modeling:  
+ - `sklearn` - regression modeling, text vectorization (TF-IDF), Naive Bayes, Support Vector Classifier  
+ - `TextBlob` - sentiment analysis (optional/fallback)
 
--Natural Language Processing (NLP):  
- -`nltk` - text tokenization, stopword removal, lemmatization  
- -Modules: `punkt`, `stopwords`, `wordnet`, `omw-1.4`
+- Natural Language Processing (NLP):  
+ - `nltk` - text tokenization, stopword removal, lemmatization  
+ - Modules: `punkt`, `stopwords`, `wordnet`, `omw-1.4`
 
--Chatbot Functionality:  
- -`random` - randomized chatbot replies  
- -`cosine_similarity` (from sklearn) - matching user queries to known responses using vector similarity
+- Chatbot Functionality:  
+ - `random` - randomized chatbot replies  
+ - `cosine_similarity` (from sklearn) - matching user queries to known responses using vector similarity
 
--Location Mapping:  
- -`folium` - map visualization of hospitals  
- -`geopy` - geocoding cities to coordinates
+- Location Mapping:  
+ - `folium` - map visualization of hospitals  
+ - `geopy` - geocoding cities to coordinates
 
--Development Environment:
- -Jupyter Notebook (local)
- -Visual Studio Code (editor)
+- Development Environment:
+ - Jupyter Notebook (local)
+ - Visual Studio Code (editor)
 
 ## Model Details
 
@@ -82,4 +82,35 @@ By integrating these components, the project aims to empower users with accessib
 - Uses the `geopy` library to convert city names into latitude/longitude coordinates.
 - Uses the `folium` library to display hospital locations interactively on a map.
 - Helps users quickly locate medical facilities in cities of their choice.
+
+## Final Regression Formula
+
+The multiple linear regression model derived the following equation for predicting total cholesterol:
+
+**TOTAL CHOLESTROL** = 0.0029 × AGE  
+&emsp;&emsp;&emsp;&emsp;&nbsp;+ 0.01119 × SYSTOLIC BLOOD PRESSURE  
+&emsp;&emsp;&emsp;&emsp;&nbsp;+ 0.0067 × DIASTOLIC BLOOD PRESSURE  
+&emsp;&emsp;&emsp;&emsp;&nbsp;+ 0.00108 × HEART RATE  
+&emsp;&emsp;&emsp;&emsp;&nbsp;− 1.915
+
+- Coefficients were obtained using multiple linear regression on the dataset.
+- The model assumes a linear relationship between each input feature and the cholesterol level.
+- **R² score**: 0.503 — approximately 50.3% of the variation in cholesterol levels is explained by the model.
+- **Adjusted R² score**: 0.503 — indicates a good fit with minimal overfitting for the number of features used.
+
+## Folder Structure
+
+cholesterol-prediction-and-health-chatbot/
+│
+├── datasets/
+│   ├── base_data.csv            # Dataset used for model training
+│   └── regression_summary.xlsx  # Summary output of regression analysis
+│
+├── notebooks/
+│   ├── Data-Visualization.ipynb # Visual exploration and data cleaning
+│   └── EudemoniaBot.ipynb       # Chatbot implementation and hospital locator
+│
+├─project_ppt.pptx             # Final project presentation
+├── .gitignore                   # File exclusions
+└── README.md                    # Project documentation
 
