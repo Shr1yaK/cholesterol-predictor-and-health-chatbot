@@ -123,6 +123,10 @@ cholesterol-prediction-and-health-chatbot/
 └── README.md                    # Project documentation
 ```
 
+## Authors / Credits
+
+This project was developed by Shriya Kansal and Gowri Kishore during a summer internship at Emirates Aviation University.
+
 ## License
 
 This project is licensed under the MIT License.  
