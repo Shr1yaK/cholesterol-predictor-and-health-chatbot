@@ -87,19 +87,16 @@ By integrating these components, the project aims to empower users with accessib
 
 The multiple linear regression model derived the following equation for predicting total cholesterol:
 
-**TOTAL CHOLESTROL** = 0.0029 × AGE  
-&emsp;&emsp;&emsp;&emsp;&nbsp;+ 0.01119 × SYSTOLIC BLOOD PRESSURE  
-&emsp;&emsp;&emsp;&emsp;&nbsp;+ 0.0067 × DIASTOLIC BLOOD PRESSURE  
-&emsp;&emsp;&emsp;&emsp;&nbsp;+ 0.00108 × HEART RATE  
-&emsp;&emsp;&emsp;&emsp;&nbsp;− 1.915
+**TOTAL CHOLESTROL** = 0.0029 × AGE + 0.01119 × SYSTOLIC BLOOD PRESSURE + 0.0067 × DIASTOLIC BLOOD PRESSURE + 0.00108 × HEART RATE − 1.915
 
 - Coefficients were obtained using multiple linear regression on the dataset.
 - The model assumes a linear relationship between each input feature and the cholesterol level.
 - **R² score**: 0.503 — approximately 50.3% of the variation in cholesterol levels is explained by the model.
 - **Adjusted R² score**: 0.503 — indicates a good fit with minimal overfitting for the number of features used.
 
-## Folder Structure
+## Repository Structure
 
+```
 cholesterol-prediction-and-health-chatbot/
 │
 ├── datasets/
@@ -113,4 +110,12 @@ cholesterol-prediction-and-health-chatbot/
 ├─project_ppt.pptx             # Final project presentation
 ├── .gitignore                   # File exclusions
 └── README.md                    # Project documentation
+```
+
+## Limitations / Scope
+
+- The dataset size is limited and may not reflect diverse population characteristics.
+- The regression model assumes linearity and may not capture complex medical dependencies.
+- The chatbot is based on keyword-matching and does not understand natural language in depth.
+- Hospital locator depends on city name spelling and requires an internet connection for map rendering.
 
